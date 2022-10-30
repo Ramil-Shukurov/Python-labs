@@ -1,5 +1,5 @@
 from tud_test import set_keyboard_input, get_display_output
-#import problem_1
+import problem_1
 
 def test_1():
     set_keyboard_input([5, 4])
