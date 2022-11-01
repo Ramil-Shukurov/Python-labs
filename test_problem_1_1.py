@@ -43,7 +43,7 @@ def test_2():
     problem_1.main()
 
     output = get_display_output()
-    assert output[-1] == f"Area: {(a*b)%:.2f}"
+    assert output[-1] == f"Area: {(a*b):.2f}"
     
     #assert output == ["length:", "width:","Area: 22.40"]
 
