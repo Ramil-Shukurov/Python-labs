@@ -9,9 +9,9 @@
 
 
 def main():
-    n = float(input())
-    m = float(input())
-    print("Area: " + "{%.2f}".format(n * m))
+    n = float(input(""))
+    m = float(input(""))
+    print("Area: " + "{:.2f}".format(n * m))
 
 if __name__ == "__main__":
     main()
